@@ -1,0 +1,2659 @@
+{
+  "intents": [
+    {
+      "intent": "animals",
+      "examples": [
+        {
+          "text": "Animales"
+        },
+        {
+          "text": "Animals"
+        }
+      ],
+      "description": "Animals "
+    },
+    {
+      "intent": "aquagenuity",
+      "examples": [
+        {
+          "text": "Aquagenuity"
+        }
+      ],
+      "description": "Aquagenuity"
+    },
+    {
+      "intent": "aquastat",
+      "examples": [
+        {
+          "text": "Aquastat"
+        }
+      ],
+      "description": "Aquastat"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "main-menu",
+      "examples": [
+        {
+          "text": "back"
+        },
+        {
+          "text": "choices"
+        },
+        {
+          "text": "home"
+        },
+        {
+          "text": "main"
+        },
+        {
+          "text": "main menu"
+        },
+        {
+          "text": "menu"
+        },
+        {
+          "text": "options"
+        },
+        {
+          "text": "previous"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Nestle",
+      "examples": [
+        {
+          "text": "Nestle"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "no"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "nombre",
+      "examples": [
+        {
+          "text": "$name"
+        },
+        {
+          "text": "Salma"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "resources",
+      "examples": [
+        {
+          "text": "Resources"
+        }
+      ],
+      "description": "Resources"
+    },
+    {
+      "intent": "saludo",
+      "examples": [
+        {
+          "text": "hello"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hey Minerva"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "Hola Minerva"
+        },
+        {
+          "text": "holi"
+        },
+        {
+          "text": "Holi Minerva"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "water_quiz",
+      "examples": [
+        {
+          "text": "Water Quiz"
+        }
+      ],
+      "description": "Water Quiz"
+    },
+    {
+      "intent": "water_tips",
+      "examples": [
+        {
+          "text": "Water Tips"
+        }
+      ],
+      "description": "Water Tips"
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "yes"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Animals",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Animals",
+          "synonyms": [
+            "Animales"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "aquagenuity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aquagenuity",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "aquastat",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Aquastat",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Female",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hombre",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Male",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mujer",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Language_Idioma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "English",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Español",
+          "synonyms": [
+            "Espanol"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "resources",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Resources",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "water_quiz",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Water Quiz",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "water_tips",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Water Tips",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing, bonbon!"
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding, meow!"
+              },
+              {
+                "text": "I didn't get your meaning, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media.tenor.com/images/ca9adc431520752688517aeea065ad58/tenor.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "anything_else && $Language_Idioma:English",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1626138103056",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1623892419283",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1625440733266",
+      "previous_sibling": "node_1_1625602253474"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Select english to continue in english - eliga español para continuar en español",
+            "options": [
+              {
+                "label": "English",
+                "value": {
+                  "input": {
+                    "text": "English"
+                  }
+                }
+              },
+              {
+                "label": "Español",
+                "value": {
+                  "input": {
+                    "text": "Español"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_6_1625617432094",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1625617432102",
+      "previous_sibling": "handler_5_1625617432102"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1625602268141",
+      "context": {
+        "User_gender": "@Gender"
+      },
+      "conditions": "@Gender",
+      "event_name": "input",
+      "dialog_node": "handler_5_1625602268155"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1625617432094",
+      "context": {
+        "Language_Idioma": "@Language_Idioma"
+      },
+      "conditions": "@Language_Idioma",
+      "event_name": "input",
+      "dialog_node": "handler_5_1625617432102"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1625604078121",
+      "context": {
+        "User_gender": "@Gender"
+      },
+      "conditions": "@Gender",
+      "event_name": "input",
+      "dialog_node": "handler_6_1625604078121"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you male or female?",
+            "options": [
+              {
+                "label": "Male",
+                "value": {
+                  "input": {
+                    "text": "Male"
+                  }
+                }
+              },
+              {
+                "label": "Female",
+                "value": {
+                  "input": {
+                    "text": "Female"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1625602268141",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1625602268155",
+      "previous_sibling": "handler_5_1625602268155"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Eres hombre o mujer?",
+            "options": [
+              {
+                "label": "Hombre",
+                "value": {
+                  "input": {
+                    "text": "Hombre"
+                  }
+                }
+              },
+              {
+                "label": "Mujer",
+                "value": {
+                  "input": {
+                    "text": "Mujer"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1625604078121",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1625604078121",
+      "previous_sibling": "handler_6_1625604078121"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Stop bathing so long, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.giphy.com/media/KoXVFgEkQrY4M/giphy.gif?cid=ecf05e4716nhrd1lqocqct6b5rovv6hhvbtzwvu0cwdj97sr&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1624922573620",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625102739798"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_10_1625100198387"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Que bueno, meow!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media2.giphy.com/media/ToCRja2miF3Xi/giphy.gif?cid=ecf05e47r1yi1qjju9ynnoo278u1zhfmt7aputjf9j7kqsje&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1625254700841",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11_1625254700841"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_10_1625254700841",
+      "previous_sibling": "node_9_1625254700841"
+    },
+    {
+      "type": "standard",
+      "title": "Get name / registrar nombre",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Gender",
+      "dialog_node": "node_10_1625618046834",
+      "previous_sibling": "node_4_1623892419283"
+    },
+    {
+      "type": "standard",
+      "title": "Nestle node",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://wyomingllcattorney.com/Blog/Everything-Owned-by-Nestle\">The best way to bring attention to a subject of interest is to take action! The quickest way you can take action is to boycott one of the worlds biggest enemies to water. By voting with your wallet and hurting their bottom line, you can help influence companies to change their practices. $Name_Nombre, take action every time you go to the register.</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1626140190528",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625621432316"
+      },
+      "conditions": "#Nestle && $Language_Idioma:English",
+      "dialog_node": "node_10_1626138780850",
+      "previous_sibling": "node_1_1626139921336"
+    },
+    {
+      "type": "standard",
+      "title": "Q4 - Washing machine",
+      "output": {
+        "generic": [
+          {
+            "source": "https://247homerescue.co.uk/wp-content/uploads/2015/05/170622-washing-machine.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "¿Te aseguras que este llena la lavadora antes de usarla?",
+            "options": [
+              {
+                "label": "Si",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1625254700840",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_11_1625254700841",
+      "previous_sibling": "node_8_1625254700841"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good job, meow!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media2.giphy.com/media/ToCRja2miF3Xi/giphy.gif?cid=ecf05e47r1yi1qjju9ynnoo278u1zhfmt7aputjf9j7kqsje&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1624922573620",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625102739798"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_1_1625102674673",
+      "previous_sibling": "node_10_1625100198387"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good job, meow!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media2.giphy.com/media/ToCRja2miF3Xi/giphy.gif?cid=ecf05e47r1yi1qjju9ynnoo278u1zhfmt7aputjf9j7kqsje&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1625103772352",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_16_1625103909072"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_1_1625103840094",
+      "previous_sibling": "node_6_1625103827503"
+    },
+    {
+      "type": "folder",
+      "title": "Encuesta sobre uso del agua",
+      "parent": "node_3_1625607143167",
+      "conditions": "$Language_Idioma:Español",
+      "dialog_node": "node_1_1625254700840",
+      "previous_sibling": "node_9_1625100145787"
+    },
+    {
+      "type": "frame",
+      "title": "Get user gender",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1623892419283",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1625618046834"
+      },
+      "conditions": "@Language_Idioma:English",
+      "dialog_node": "node_1_1625602253474",
+      "previous_sibling": "node_4_1625604078120"
+    },
+    {
+      "type": "standard",
+      "title": "greetings - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I'm Minerva, your virtual assistant. I'm ready and happy to help you, bonbon!"
+              },
+              {
+                "text": "Boycott Nestlé!!!! \n<a href=\"https://www.desertsun.com/story/news/environment/2021/04/23/california-officials-tell-nestle-halt-authorized-water-diversions/7353217002/\">Boycott Nestlé<a/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://64.media.tumblr.com/42bf6a1273996601862805e61dc2066b/00842bae89236955-24/s250x400/53a026820ff4475bdb1fd5cd770e5265b56da031.gifv",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#saludo && $Language_Idioma:English",
+      "dialog_node": "node_1_1626051267387",
+      "previous_sibling": "node_6_1623958391635"
+    },
+    {
+      "type": "standard",
+      "title": "Aquastat - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.fao.org/aquastat/statistics/query/index.html\">Aquastat es \" el sistema mundial de información de la FAO sobre los recursos hídricos y la gestión del agua en la agricultura. Recoge, analiza y proporciona acceso gratuito a más de 180 variables e indicadores por país desde 1960. AQUASTAT se basa en las capacidades y los conocimientos nacionales, con énfasis en África, Oriente Próximo, los países de la antigua Unión Soviética, Asia y América Latina y el Caribe. AQUASTAT desempeña un papel clave en el seguimiento del Objetivo de Desarrollo Sostenible 6 que establece \"garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos\", y en particular los indicadores de la meta 6.4 sobre el estrés hídrico y la eficiencia en el uso del agua\".<a/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625624136086",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621432316"
+      },
+      "conditions": "#aquastat && $Language_Idioma:Español",
+      "dialog_node": "node_1_1626136594434",
+      "previous_sibling": "node_4_1625097783523"
+    },
+    {
+      "type": "standard",
+      "title": "Bye copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bye Bonbon, cuidate!"
+              },
+              {
+                "text": "Nos vemos luego, meow!"
+              },
+              {
+                "text": "Au revoir! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/84/5d/f1/845df1aefc6a5e37ae575327a0cc6e43.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "$Language_Idioma:Español && #General_Ending",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1626138374816",
+      "previous_sibling": "node_1_1626051267387"
+    },
+    {
+      "type": "standard",
+      "title": "Nestle node - esp",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://wyomingllcattorney.com/Blog/Everything-Owned-by-Nestle\">La mejor manera de llamar la atención sobre un tema de interés es pasar a la acción. La forma más rápida de actuar es boicotear a uno de los mayores enemigos del agua del mundo. Votando con tu cartera y perjudicando sus resultados, puedes ayudar a influir en las empresas para que cambien sus prácticas. $Name_Nombre, actúa cada vez que vayas a la caja registradora.</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1626140190528",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621432316"
+      },
+      "conditions": "#Nestle && $Language_Idioma:Español",
+      "dialog_node": "node_1_1626139921336"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Que bueno, se ve que estas haciendo lo posible para ahorrar agua, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media2.giphy.com/media/ToCRja2miF3Xi/giphy.gif?cid=ecf05e47r1yi1qjju9ynnoo278u1zhfmt7aputjf9j7kqsje&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_11_1625254700841",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1625254700841"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_12_1625254700841"
+    },
+    {
+      "type": "standard",
+      "title": "Q5 -  Leaky Pipes",
+      "output": {
+        "generic": [
+          {
+            "source": "https://stewartplumbing.com/wp-content/uploads/2019/01/bigstock-181515571.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": " Do you make sure that your pipes are not leaking?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1625100145787",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_13_1625103895399",
+      "previous_sibling": "node_16_1625103909072"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esperar que este llena la lavadora minimiza el gasto del agua, meow!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.giphy.com/media/KoXVFgEkQrY4M/giphy.gif?cid=ecf05e4716nhrd1lqocqct6b5rovv6hhvbtzwvu0cwdj97sr&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_11_1625254700841",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1625254700841"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_13_1625254700841",
+      "previous_sibling": "node_12_1625254700841"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good job, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media2.giphy.com/media/ToCRja2miF3Xi/giphy.gif?cid=ecf05e47r1yi1qjju9ynnoo278u1zhfmt7aputjf9j7kqsje&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_13_1625103895399",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625621432316"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_14_1625103895399"
+    },
+    {
+      "type": "standard",
+      "title": "Q5 -  Leaky Pipes",
+      "output": {
+        "generic": [
+          {
+            "source": "https://stewartplumbing.com/wp-content/uploads/2019/01/bigstock-181515571.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "¿Te aseguras que la tuberia no este gotiando?",
+            "options": [
+              {
+                "label": "Si",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1625254700840",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_14_1625254700841",
+      "previous_sibling": "node_11_1625254700841"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Get those pipes fixed! Get rid of all leaks, meow!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.giphy.com/media/KoXVFgEkQrY4M/giphy.gif?cid=ecf05e4716nhrd1lqocqct6b5rovv6hhvbtzwvu0cwdj97sr&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_13_1625103895399",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625621432316"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_15_1625103895399",
+      "previous_sibling": "node_14_1625103895399"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Que bueno, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media2.giphy.com/media/ToCRja2miF3Xi/giphy.gif?cid=ecf05e47r1yi1qjju9ynnoo278u1zhfmt7aputjf9j7kqsje&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_14_1625254700841",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621432316"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_15_1625254700841"
+    },
+    {
+      "type": "standard",
+      "title": "Q4 - Washing machine",
+      "output": {
+        "generic": [
+          {
+            "source": "https://247homerescue.co.uk/wp-content/uploads/2015/05/170622-washing-machine.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Do you make sure that your washing machine is totally full with your clothes before use?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1625100145787",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_16_1625103909072",
+      "previous_sibling": "node_6_1625103772352"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Arregla las goteras, dañan los materiales aparte de gastar bastante agua, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.giphy.com/media/KoXVFgEkQrY4M/giphy.gif?cid=ecf05e4716nhrd1lqocqct6b5rovv6hhvbtzwvu0cwdj97sr&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_14_1625254700841",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621432316"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_16_1625254700841",
+      "previous_sibling": "node_15_1625254700841"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good job, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media2.giphy.com/media/ToCRja2miF3Xi/giphy.gif?cid=ecf05e47r1yi1qjju9ynnoo278u1zhfmt7aputjf9j7kqsje&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_16_1625103909072",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_13_1625103895399"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_17_1625103909073"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Wait till the machine has a full load before running, to minimize water used, meow!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.giphy.com/media/KoXVFgEkQrY4M/giphy.gif?cid=ecf05e4716nhrd1lqocqct6b5rovv6hhvbtzwvu0cwdj97sr&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_16_1625103909072",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_13_1625103895399"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_18_1625103909073",
+      "previous_sibling": "node_17_1625103909073"
+    },
+    {
+      "type": "standard",
+      "title": "Q2 - Faucets",
+      "output": {
+        "generic": [
+          {
+            "source": "https://previews.123rf.com/images/alancotton/alancotton1306/alancotton130600039/20388025-an-open-tap-with-water-flowing-.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Do you usually make sure that the faucets are closed?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1625100145787",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_2_1625102739798",
+      "previous_sibling": "node_8_1624922573620"
+    },
+    {
+      "type": "standard",
+      "title": "Q1 - baths",
+      "output": {
+        "generic": [
+          {
+            "source": "https://s3.envato.com/files/254002748/bathtub.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "¿Sueles tomar baños que duran mucho tiempo?",
+            "options": [
+              {
+                "label": "Si",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1625254700840",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_2_1625254700841"
+    },
+    {
+      "type": "standard",
+      "title": "Get user name",
+      "output": {
+        "generic": [
+          {
+            "source": "https://cdn.discordapp.com/attachments/854531478535798819/860599621210472468/C483B5F4-7027-433B-A306-59BE5913E979.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Hello, my name is <strong>Minerva! I am a chatbot created to help users manage their water usage by providing them with useful information. Based on Lolly, a character from Nintendo's game Animal Crossing and whose phrase is \"bonbon!\", the concept of Minerva is to act as a mascot of the user to encourage them to save water. Animals are also affected due to misuse of water. We chose a cat because... who does not love cats? </s>"
+              },
+              {
+                "text": "What's yours?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1625618046834",
+      "context": {},
+      "conditions": "$Language_Idioma:English",
+      "dialog_node": "node_2_1625618029500",
+      "previous_sibling": "node_5_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "Menu - eng",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose an option:",
+            "options": [
+              {
+                "label": "Water saving tips",
+                "value": {
+                  "input": {
+                    "text": "Water Tips"
+                  }
+                }
+              },
+              {
+                "label": "Water saving quiz",
+                "value": {
+                  "input": {
+                    "text": "Water Quiz"
+                  }
+                }
+              },
+              {
+                "label": "Aquastat",
+                "value": {
+                  "input": {
+                    "text": "Aquastat"
+                  }
+                }
+              },
+              {
+                "label": "Aquagenuity",
+                "value": {
+                  "input": {
+                    "text": "Aquagenuity"
+                  }
+                }
+              },
+              {
+                "label": "Other resources",
+                "value": {
+                  "input": {
+                    "text": "Resources"
+                  }
+                }
+              },
+              {
+                "label": "What can I do?",
+                "value": {
+                  "input": {
+                    "text": "Nestle"
+                  }
+                }
+              },
+              {
+                "label": "Animals in danger because of water scarcity",
+                "value": {
+                  "input": {
+                    "text": "Animals"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          },
+          {
+            "source": "https://media.tenor.com/images/b745a507abab54aa6cf3eef55e7ba6e1/tenor.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625621438422",
+      "conditions": "$Language_Idioma:English",
+      "dialog_node": "node_2_1625621432316"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No lo he entendido. Puedes intentar reformularlo, bonbon!"
+              },
+              {
+                "text": "¿Puede reformular su declaración? No estoy entendiendo, meow!"
+              },
+              {
+                "text": "No entendí lo que querías decir, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media.tenor.com/images/ca9adc431520752688517aeea065ad58/tenor.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "anything_else && $Language_Idioma:Español",
+      "dialog_node": "node_2_1626051481806",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "Aquagenuity - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aquagenuity \"Esta aplicación web le permite saber lo que hay en su agua y lo que eso significa para su salud. El AquaScore™ proporciona una monitorización de la calidad del agua en tiempo real y acceso a los datos históricos de la calidad del agua\""
+              },
+              {
+                "text": "<a href=\"https://aquagenuity.com/drinking-water-database/drinking-water-database\">Aquagenuity info<a/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1625624164970",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621432316"
+      },
+      "conditions": "#aquagenuity && $Language_Idioma:Español",
+      "dialog_node": "node_2_1626136861091",
+      "previous_sibling": "node_3_1625097810209"
+    },
+    {
+      "type": "folder",
+      "title": "Nestle",
+      "conditions": "#Nestle",
+      "dialog_node": "node_2_1626140190528",
+      "previous_sibling": "node_8_1625624203959"
+    },
+    {
+      "type": "standard",
+      "title": "Aquagenuity",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aquagenuity \"This web application lets you know what’s in your water and what that means for your health. The AquaScore™ provides real-time water quality monitoring and access to historical water quality data\""
+              },
+              {
+                "text": "<a href=\"https://aquagenuity.com/drinking-water-database/drinking-water-database\">Aquagenuity info<a/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1625624164970",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625621432316"
+      },
+      "conditions": "#aquagenuity && $Language_Idioma:English",
+      "dialog_node": "node_3_1625097810209"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes te tomar baños mas cortos, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.giphy.com/media/KoXVFgEkQrY4M/giphy.gif?cid=ecf05e4716nhrd1lqocqct6b5rovv6hhvbtzwvu0cwdj97sr&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1625254700841",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625254700841"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_3_1625254700841"
+    },
+    {
+      "type": "folder",
+      "title": "Water Quiz",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_3_1625607143167",
+      "previous_sibling": "node_7_1625607090127"
+    },
+    {
+      "type": "standard",
+      "title": "get name",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1625618029500",
+      "context": {
+        "Name_Nombre": "<? input.text.substring(0,1).toUpperCase()+input.text.substring(1)?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1625618029500"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "Menu - es",
+      "output": {
+        "generic": [
+          {
+            "title": "Eliga una opcion:",
+            "options": [
+              {
+                "label": "Tips para ahorrar agua",
+                "value": {
+                  "input": {
+                    "text": "Water Tips"
+                  }
+                }
+              },
+              {
+                "label": "Quiz de el ahorro de agua",
+                "value": {
+                  "input": {
+                    "text": "Water Quiz"
+                  }
+                }
+              },
+              {
+                "label": "Aquastat",
+                "value": {
+                  "input": {
+                    "text": "Aquastat"
+                  }
+                }
+              },
+              {
+                "label": "Aquagenuity",
+                "value": {
+                  "input": {
+                    "text": "Aquagenuity"
+                  }
+                }
+              },
+              {
+                "label": "Otros recursos",
+                "value": {
+                  "input": {
+                    "text": "Resources"
+                  }
+                }
+              },
+              {
+                "label": "Como ayudar?",
+                "value": {
+                  "input": {
+                    "text": "Nestle"
+                  }
+                }
+              },
+              {
+                "label": "Animales en peligro por la escasez de agua",
+                "value": {
+                  "input": {
+                    "text": "Animales"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          },
+          {
+            "source": "https://media.tenor.com/images/b745a507abab54aa6cf3eef55e7ba6e1/tenor.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1625621438422",
+      "conditions": "$Language_Idioma:Español",
+      "dialog_node": "node_3_1625621432316",
+      "previous_sibling": "node_2_1625621432316"
+    },
+    {
+      "type": "standard",
+      "title": "Menu",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#main-menu",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1625621438422",
+      "previous_sibling": "node_10_1625618046834"
+    },
+    {
+      "type": "folder",
+      "title": "Aquastat",
+      "conditions": "#aquastat",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1625624136086",
+      "previous_sibling": "node_3_1625607143167"
+    },
+    {
+      "type": "standard",
+      "title": "Extra Resources / Otros recursos - copy 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chequea estos otros recursos que te ayudaran a gastar menos agua, bonbon!\n<a href=\"https://www.dropcountr.com/platform/\">dropcountr<a/>"
+              },
+              {
+                "text": "Vamos a agregar mas recursos extras a lo que vamos encontrando mas aplicaciones para el manajo del agua que sean gratuitas, como añadido the recomendamos usar apps como Notion para crear tus propias plantillas para administrar tu uso del agua!"
+              },
+              {
+                "text": "<a href=\"https://www.notion.so/es-es\">Notion<a/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1625624203959",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621432316"
+      },
+      "conditions": "#resources && $Language_Idioma:Español",
+      "dialog_node": "node_3_1626136958025",
+      "previous_sibling": "node_5_1624922705156"
+    },
+    {
+      "type": "frame",
+      "title": "Gender",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Language_Idioma",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1623892419283",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Aquastat",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"http://www.fao.org/aquastat/statistics/query/index.html\">Aquastat is \" the FAO global information system on water resources and agricultural water management. It collects, analyses and provides free access to over 180 variables and indicators by country from 1960. AQUASTAT draws on national capacities and expertise with an emphasis on Africa, the Near East, countries of the former Soviet Union, Asia, and Latin America and the Caribbean. AQUASTAT plays a key role in the monitoring of the Sustainable Development Goal 6 that sets out to \"ensure availability and sustainable management of water and sanitation for all\", and in particular indicators of target 6.4 on water stress and water use efficiency.\"<a/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625624136086",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625621432316"
+      },
+      "conditions": "#aquastat && $Language_Idioma:English",
+      "dialog_node": "node_4_1625097783523"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Que bueno, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media2.giphy.com/media/ToCRja2miF3Xi/giphy.gif?cid=ecf05e47r1yi1qjju9ynnoo278u1zhfmt7aputjf9j7kqsje&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1625254700841",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1625254700841"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_4_1625254700841",
+      "previous_sibling": "node_3_1625254700841"
+    },
+    {
+      "type": "frame",
+      "title": "Grabar sexo de usuario",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_4_1623892419283",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1625618046834"
+      },
+      "conditions": "@Language_Idioma:Español",
+      "dialog_node": "node_4_1625604078120"
+    },
+    {
+      "type": "standard",
+      "title": "repeat name",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Beautiful name $Name_Nombre"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1625618029500",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621438422"
+      },
+      "conditions": "$Name_Nombre",
+      "dialog_node": "node_4_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "Extra Resources / Otros recursos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Check out these other resources that will help you save water, bonbon!\n<a href=\"https://www.dropcountr.com/platform/\">dropcountr<a/>"
+              },
+              {
+                "text": "We will be adding more extra resources as we find more free water management applications, as an added bonus we recommend using apps like Notion to create your own templates to manage your water usage! "
+              },
+              {
+                "text": "<a href=\"https://www.notion.so/es-es\">Notion<a/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_8_1625624203959",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625621432316"
+      },
+      "conditions": "#resources && $Language_Idioma:English",
+      "dialog_node": "node_5_1624922705156"
+    },
+    {
+      "type": "standard",
+      "title": "Q2 - Faucets",
+      "output": {
+        "generic": [
+          {
+            "source": "https://previews.123rf.com/images/alancotton/alancotton1306/alancotton130600039/20388025-an-open-tap-with-water-flowing-.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "¿Te aseguras que las llaves esten cerradas?",
+            "options": [
+              {
+                "label": "Si",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1625254700840",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_5_1625254700841",
+      "previous_sibling": "node_2_1625254700841"
+    },
+    {
+      "type": "standard",
+      "title": "Registrar nombre de usuario",
+      "output": {
+        "generic": [
+          {
+            "source": "https://cdn.discordapp.com/attachments/854531478535798819/860599621210472468/C483B5F4-7027-433B-A306-59BE5913E979.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Hola me llamo <strong>Minerva! Soy un chatbot creado para ayudar a los usuarios a gestionar su consumo de agua proporcionándoles información útil. Basado en Lolly, un personaje del juego de Nintendo Animal Crossing y cuya frase es \"¡bombón!\", el concepto de Minerva es actuar como mascota del usuario para animarle a ahorrar agua. Los animales también se ven afectados por el mal uso del agua. Hemos elegido un gato porque... ¿a quién no le gustan los gatos?</s>"
+              },
+              {
+                "text": "¿Como te llamas tu?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1625618046834",
+      "context": {},
+      "conditions": "$Language_Idioma:Español",
+      "dialog_node": "node_5_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "Animals in danger because of water scarcity",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://tuafi.com/how-the-global-water-crisis-harms-animals-around-the-globe/\">How the Global Water Crisis Harms Animals Around The Globe<a/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1626138876555",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625621432316"
+      },
+      "conditions": "#animals && $Language_Idioma:English",
+      "dialog_node": "node_5_1626138911322"
+    },
+    {
+      "type": "standard",
+      "title": "greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola, Soy Minerva, tu asistente virtual. iEstoy lista y feliz de poder ayudarte, bonbon!"
+              },
+              {
+                "text": "Boycott Nestlé!!!! \n<a href=\"https://www.desertsun.com/story/news/environment/2021/04/23/california-officials-tell-nestle-halt-authorized-water-diversions/7353217002/\">Boycott Nestlé<a/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://64.media.tumblr.com/42bf6a1273996601862805e61dc2066b/00842bae89236955-24/s250x400/53a026820ff4475bdb1fd5cd770e5265b56da031.gifv",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#saludo && $Language_Idioma:Español",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1623958391635",
+      "previous_sibling": "node_6_1626138876555"
+    },
+    {
+      "type": "standard",
+      "title": "Q3 - Dishes",
+      "output": {
+        "generic": [
+          {
+            "source": "https://images.food52.com/3cF1ckOD6836SFj8rJ_14amLcbk=/535730a4-f977-4aee-a71c-02a48194bdfc--7582889968_e37d1915c6_o.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Do you keep the water running while washing dishes?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1625100145787",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_6_1625103772352",
+      "previous_sibling": "node_2_1625102739798"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Close the faucet when washing dishes if not rinsing, meow!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.giphy.com/media/KoXVFgEkQrY4M/giphy.gif?cid=ecf05e4716nhrd1lqocqct6b5rovv6hhvbtzwvu0cwdj97sr&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1625103772352",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_16_1625103909072"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_6_1625103827503"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Que bueno, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media2.giphy.com/media/ToCRja2miF3Xi/giphy.gif?cid=ecf05e47r1yi1qjju9ynnoo278u1zhfmt7aputjf9j7kqsje&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1625254700841",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625254700841"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_6_1625254700841"
+    },
+    {
+      "type": "standard",
+      "title": "grabar nombre",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1625618029500",
+      "context": {
+        "Name_Nombre": "<? input.text.substring(0,1).toUpperCase()+input.text.substring(1)?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1625618029500"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1625618029500"
+    },
+    {
+      "type": "folder",
+      "title": "Animals",
+      "conditions": "#animals",
+      "dialog_node": "node_6_1626138876555",
+      "previous_sibling": "node_2_1626140190528"
+    },
+    {
+      "type": "standard",
+      "title": "Animales en peligro por la escasez de agua",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://lacontaminacion.org/como-afecta-la-sequia-a-los-animales/\">¿Cómo afecta la sequía a los animales?\n<a/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1626138876555",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621432316"
+      },
+      "conditions": "#animals",
+      "dialog_node": "node_6_1626139123336",
+      "previous_sibling": "node_5_1626138911322"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Asegurate que las llaves esten cerradas cuando no esten en uso, meow!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.giphy.com/media/KoXVFgEkQrY4M/giphy.gif?cid=ecf05e4716nhrd1lqocqct6b5rovv6hhvbtzwvu0cwdj97sr&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1625254700841",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1625254700841"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_7_1625254700841",
+      "previous_sibling": "node_6_1625254700841"
+    },
+    {
+      "type": "folder",
+      "title": "Water Tips",
+      "conditions": "#water_tips",
+      "dialog_node": "node_7_1625607090127",
+      "previous_sibling": "node_3_1625621438422"
+    },
+    {
+      "type": "standard",
+      "title": "repitir nombre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Que lindo nombre tienes, $Name_Nombre!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1625618029500",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621438422"
+      },
+      "conditions": "$Name_Nombre",
+      "dialog_node": "node_7_1625618029500"
+    },
+    {
+      "type": "standard",
+      "title": "Q1 - baths",
+      "output": {
+        "generic": [
+          {
+            "source": "https://s3.envato.com/files/254002748/bathtub.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "Do you often take baths that may last longer than needed?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1625100145787",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_8_1624922573620"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good job, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media2.giphy.com/media/ToCRja2miF3Xi/giphy.gif?cid=ecf05e47r1yi1qjju9ynnoo278u1zhfmt7aputjf9j7kqsje&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1625102739798",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625103772352"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_8_1625102846028"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Start making sure faucets are closed when not in use, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.giphy.com/media/KoXVFgEkQrY4M/giphy.gif?cid=ecf05e4716nhrd1lqocqct6b5rovv6hhvbtzwvu0cwdj97sr&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1625102739798",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1625103772352"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_8_1625102877281",
+      "previous_sibling": "node_8_1625102846028"
+    },
+    {
+      "type": "standard",
+      "title": "Q3 - Dishes",
+      "output": {
+        "generic": [
+          {
+            "source": "https://images.food52.com/3cF1ckOD6836SFj8rJ_14amLcbk=/535730a4-f977-4aee-a71c-02a48194bdfc--7582889968_e37d1915c6_o.jpg",
+            "response_type": "image"
+          },
+          {
+            "title": "¿Mantienes la llave abierta cuando lavas los trastes?",
+            "options": [
+              {
+                "label": "Si",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1625254700840",
+      "conditions": "#water_quiz",
+      "dialog_node": "node_8_1625254700841",
+      "previous_sibling": "node_5_1625254700841"
+    },
+    {
+      "type": "standard",
+      "title": "Tips de agua",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://www.zaplo.es/blog/consejos-para-ahorrar-agua/\">Tips para ahorrar el agua</a>"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1625607090127",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1625621432316"
+      },
+      "conditions": "$Language_Idioma:Español",
+      "dialog_node": "node_8_1625607055801",
+      "previous_sibling": "node_9_1624918008576"
+    },
+    {
+      "type": "folder",
+      "title": "Aquagenuity",
+      "conditions": "#aquagenuity",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1625624164970",
+      "previous_sibling": "node_3_1625624136086"
+    },
+    {
+      "type": "folder",
+      "title": "Extra resources",
+      "conditions": "#resources",
+      "dialog_node": "node_8_1625624203959",
+      "previous_sibling": "node_8_1625624164970"
+    },
+    {
+      "type": "standard",
+      "title": "Water Tips",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://www.volusia.org/services/growth-and-resource-management/environmental-management/natural-resources/water-conservation/25-ways-to-save-water.stml\">Water saving tips</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1625607090127",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1625621432316"
+      },
+      "conditions": "$Language_Idioma:English",
+      "dialog_node": "node_9_1624918008576"
+    },
+    {
+      "type": "folder",
+      "title": "Water Habits Quiz",
+      "parent": "node_3_1625607143167",
+      "conditions": "$Language_Idioma:English",
+      "dialog_node": "node_9_1625100145787"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Solo mantega la llave abierta cuando este enjuagando los platos, bonbon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.giphy.com/media/KoXVFgEkQrY4M/giphy.gif?cid=ecf05e4716nhrd1lqocqct6b5rovv6hhvbtzwvu0cwdj97sr&rid=giphy.gif&ct=g",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_8_1625254700841",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_11_1625254700841"
+      },
+      "conditions": "#yes",
+      "dialog_node": "node_9_1625254700841"
+    },
+    {
+      "type": "standard",
+      "title": "Bye!",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bye Bonbon, take care!"
+              },
+              {
+                "text": "See you soon, meow!"
+              },
+              {
+                "text": "Au revoir! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/84/5d/f1/845df1aefc6a5e37ae575327a0cc6e43.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#General_Ending && $Language_Idioma:English",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1626138103056",
+      "previous_sibling": "node_1_1626138374816"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1625602253474",
+      "variable": "$User_gender",
+      "dialog_node": "slot_5_1625602268141"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1625604078120",
+      "variable": "$User_gender",
+      "dialog_node": "slot_5_1625604078121"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Welcome",
+      "variable": "$Language_Idioma",
+      "dialog_node": "slot_6_1625617432094"
+    },
+    {
+      "type": "frame",
+      "title": "Welcome",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1623892419283"
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Bilingüe",
+  "language": "en",
+  "description": "agua/aqua"
+}
